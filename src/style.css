@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.signup,.login, .dashboard{
+    text-align: center;
+}
+.signup-form, .login-form, .dashboard{
+    display: flex;
+    flex-direction: column;
+    /* width: max-content; */
+    /* align-items: center; */
+}
+ h1{
+    padding: 10px;
+    width: 30vw;
+    margin: 10px;
+}
+.signup-form input, .login-form input{
+    padding: 10px;
+    width: 30vw;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+input:focus{
+    outline: none;
+    box-shadow:  1px 0px 5px tomato;
+}
+.submit-btn{
+    padding: 10px;
+    width: 31vw;
+    margin: 10px;
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+    background-color: tomato;
+    border: none;
+    border-radius: 5px;
+}
+.submit-btn:hover{
+    box-shadow:  1px 0px 5px black;
+}
+
+.dashboard h2{
+    width: 30vw;
+    font-weight: 400;
+    text-align: left;
+    padding: 10px;
+    font-family:cursive;
+}
