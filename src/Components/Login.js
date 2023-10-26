@@ -13,7 +13,7 @@ const Login = ({setToken}) => {
         e.preventDefault();
         // console.log(e.target[0].value);
         if (!email || !password) {
-            alert("All fields are mandetory")
+            alert("All fields are mandetory  ")
         }
         else {
             axios.post("https://instagram-express-app.vercel.app/api/auth/login/", { email, password })
